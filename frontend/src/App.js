@@ -95,6 +95,7 @@ const App = () => {
   // Render the UI
   return (
     <main>
+          <div className='form-box'>
       <h1 className='title'>Management Tool</h1>
       <div className='input_holder'>
         {/* Input fields for task title and description */}
@@ -115,7 +116,8 @@ const App = () => {
           {updateId ? 'Update Task' : 'Add Task'}
         </button>
       </div>
-
+      </div>
+           <div className='List-box'>
       {/* Dropdown to filter tasks based on status */}
       <select value={filterStatus} onChange={(e) => setFilterStatus(e.target.value)}>
         <option value='all'>All Tasks</option>
@@ -141,6 +143,7 @@ const App = () => {
       </ul>
 
       <ToastContainer />
+    </div>
     </main>
   );
 };
