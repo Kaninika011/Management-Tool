@@ -1,6 +1,6 @@
 # Task Management Tool
 
-A straightforward task management application built with the MERN stack.
+A straightforward task management application built with  MERN stack.
 
 ## Features
 
