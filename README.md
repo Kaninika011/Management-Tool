@@ -16,3 +16,7 @@ A straightforward task management application built with  MERN stack.
 - React: Frontend library for building the user interface.
 - Node.js: JavaScript runtime for server-side development.
 - Axios: HTTP client for making requests between the frontend and backend.
+
+
+![proj-img1](https://github.com/Kaninika011/Management-Tool/assets/74821776/ed21f08d-9a82-45e9-9c31-0c9cb82aa835)
+
